@@ -32,4 +32,4 @@ for (var _i = 1; _i <= string_length(_cadena); _i++) {
         _delimitadorescaracteres = "";
     }
 }
-external_free("mydll.dll");
+external_free(dll_handle);
